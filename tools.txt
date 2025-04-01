@@ -1,0 +1,1 @@
+Найти инфоблок по ID в админке: /bitrix/admin/iblock_edit.php?type=content&lang=ru&ID=
