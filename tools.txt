@@ -1,3 +1,3 @@
 Найти инфоблок по ID в админке: /bitrix/admin/iblock_edit.php?type=content&lang=ru&ID=
 
-Рекурсивный поиск в дерикториях: grep -Rl "<!-- code-youre-looking-for -->" /local/ или /bitrix/templates/
+Рекурсивный поиск в дерикториях: grep -RL --include='*.php' "\<\!-- start modal --\>" local
